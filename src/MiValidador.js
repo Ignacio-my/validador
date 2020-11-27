@@ -13,7 +13,7 @@ export default function MiValidador(params){
         setClave(e.target.value);
     }
 
-    if(clave === "uvalpo") return<p> Maravilloso</p>
+    if(clave === "uvalpo") return<p> Felicidades a ingresado correctamente su rut y la contraseña</p>
     
     return (<div>
         <input type ="text" value={rutIngresado} onChange = {change} />

@@ -5,10 +5,11 @@ import MiValidador from './MiValidador'
 
 function App() {
   return (
-    <div className="App">n 
+    <div className="App">
       <header className="App-header">
-        <p> U Valpo</p>
-      <MiValidador valor = "123344" />
+        <p>Universidad De Valparaiso</p>
+        <p>Contraseña UValpo</p>
+      <MiValidador valor = "Ingresar rut sin puntos" />
       </header>
     </div>
   );
